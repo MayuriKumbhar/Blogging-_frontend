@@ -1,0 +1,42 @@
+.navbar {
+    background-image: linear-gradient(to right, rgb(156, 31, 160), rgb(128, 120, 241), rgb(146, 200, 207));
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.name{
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.name:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+
+.nav-right{
+    height: 30px;
+    width: 30px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    padding: 5px;
+    margin-right: 50px;
+}
+
+.nav-left {
+    margin-right: 900px;
+}

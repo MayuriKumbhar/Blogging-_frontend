@@ -1,0 +1,55 @@
+<div class="dropdown">
+                    <button style={{float: 'right'}} class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                       Change Tag
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <li><button class="dropdown-item" type="button" onClick={onButtonEntertainment}>Entertainment</button></li>
+                        <li><button class="dropdown-item" type="button" onClick={onButtonSports}>Sports</button></li>
+                        <li><button class="dropdown-item" type="button" onClick={onButtonFinance}>Finance</button></li>
+                        <li><button class="dropdown-item" type="button" onClick={onButtonFashion}>Fashion</button></li>
+                        <li><button class="dropdown-item" type="button" onClick={onButtonLife}>Life</button></li>
+                    </ul>
+                </div>
+
+
+
+
+
+                <div className='container'>
+          <h2 className="header">Profile!</h2>
+          <div className='container'>
+            <table class="table table-borderless" style={{width: '30%'}}>
+              <tbody>
+              <tr>
+                  <td><h4>User Name:</h4></td>
+                  <td><h4>{user.username}</h4></td>
+                </tr>
+                <tr>
+                  <td><h4>First Name:</h4></td>
+                  <td><h4>{user.firstname}</h4></td>
+                </tr>
+                <tr>
+                  <td><h4>Last Name:</h4></td>
+                  <td><h4>{user.lastname}</h4></td>
+                </tr>
+                <tr>
+                  <td><h4>Email:</h4></td>
+                  <td><h4>{user.email}</h4></td>
+                </tr>
+                <tr>
+                  <td><h4>Gender:</h4></td>
+                  <td><h4>{user.gender}</h4></td>
+                </tr>
+                <tr>
+                  <td><h4>Country:</h4></td>
+                  <td><h4>{user.country}</h4></td>
+                </tr>
+                <tr>
+                  <td><h4>City:</h4></td>
+                  <td><h4>{user.city}</h4></td>
+                </tr>
+                
+              </tbody>
+            </table>
+          </div>
+        </div>
